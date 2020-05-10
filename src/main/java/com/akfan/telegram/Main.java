@@ -13,6 +13,7 @@ public class Main {
     private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
+        LOGGER.info("Bot process started");
 
         ApiContextInitializer.init();
         TelegramBotsApi botsApi = new TelegramBotsApi();
